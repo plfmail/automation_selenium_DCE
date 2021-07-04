@@ -1,0 +1,66 @@
+#login
+login_username_loc: //*[@class="login-page"]/div[2]/div[1]/div[1]/div[1]//input
+login_password_loc: //*[@class="login-page"]/div[2]/div[1]/div[1]/div[2]//input
+login_submit_loc: //*[@id="login"]//button[1]
+
+#sidebar
+sidebar_applist_loc: //*[@id="app"]//menu//section[2]/menu/span
+
+#applist
+applist_loc_firstapp: //*[@class="dao-table-view unselectable"]//tr[1]/td[1]/a
+applist_createapp_loc: //*[@class="dao-btn blue has-icon"]
+applist_advancefuc_loc: //*[@class="dao-radio-group"]/p/a
+applist_create_by_image_loc: //div[@class='dao-dialog-backdrop']//div[3]//div[1]//div[1]//input[1]
+applist_create_by_yaml_loc: //*[@class="dao-radio-group"]/div[4]//input
+applist_continue_create_loc: //*[@class="dao-btn blue has-icon compact"]
+applist_createappbyimage_customizeimage_loc: //div[@class='nav-item capitalize']
+applist_createappbyimage_customizeimage_imagename_loc: //div[@class='dao-popover-rel']//div[@class='dao-popover-rel']//input
+applist_createappbyimage_customizeimage_ensureaddr_loc: //div[@class='popover-footer']//button[@class='dao-btn blue']
+applist_createappbyimage_continue_loc: //div[@class='from-registry-footer']//div//button[@class='dao-btn blue']
+applist_createappbyimage_appname_loc: //div[@class='dao-setting-layout']//div[3]//div[1]//div[2]//div[1]//div[1]//div[1]//div[1]//input[1]
+applist_createappbyimage_auditapp_loc: //button[@class='dao-btn green']
+applist_createappbyimage_deployapp_loc: //button[@class='dao-btn blue']//span[@class='text']
+applist_createappbyyml_appname_loc: //*[@class="dao-input-inner"]//input
+applist_createappbyyml_try2048_loc: //*[@class="dao-setting-section"]//a[1]
+applist_createappbyyml_confirmcreate_loc: //*[@class="dao-steps"]/div[2]//button[1]
+
+#appdetail
+appdetail_opentty_loc: //span[1]//button[1]
+appdetail_opentty_ensure_loc: //button[@class='dao-btn blue']
+appdetail_opentty_cancel_loc: //button[@class='dao-btn ghost']
+appdetail_changerc_loc: //span[1]//button[2]
+appdetail_changerc_targetnum_loc: //*[@class="dao-setting-section"]/div[1]/div[1]/div[1]/div[2]//input
+appdetail_changeimg_loc: //*[@class="dao-table-view-toolbar"]//span[1]/button[3]
+appdetail_changeimg_chooseversion_loc: //div[@class='add-image-tag']//div[@class='dao-select-switch-text']
+appdetail_changeimg_versionsearch_loc: //*[@class="search-container"]/input
+appdetail_changeimg_foundversion_loc: //*[@class="dao-select-category"]/div[3]/span
+appdetail_deploymentstart_loc: //span[2]//button[1]
+appdetail_deploymentstop_loc: //span[2]//button[2]
+appdetail_deploymentrestart_loc: //span[2]//button[3]
+appdetail_managelabel_loc: //*[@class="dao-table-view-toolbar"]//span[3]/button[1]
+appdetail_managelabel_deploylabel_loc: //li[@class='tab-nav-item active']
+appdetail_managelabel_add_deploylabel_loc: //div[@class='tab']//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//span[1]
+appdetail_managelabel_input_deploylabel_key_loc: //div[@class='tab']//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//table[1]//tbody[1]//tr[2]//td[1]//div[1]//div[1]//div[1]//div[1]//input[1]
+appdetail_managelabel_input_deploylabel_value_loc: /html[1]/body[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/div[1]/div[1]/div[1]/input[1]
+appdetail_managelabel_podlabel_loc: //li[@class='tab-nav-item']
+appdetail_managelabel_add_podlabel_loc: //div[@class='tab__body']//div[2]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//span[1]
+appdetail_managelabel_input_podlabel_key_loc: //div[@class='tab__body']//div[2]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//table[1]//tbody[1]//tr[2]//td[1]//div[1]//div[1]//div[1]//div[1]//input[1]
+appdetail_managelabel_input_podlabel_value_loc: //div[@class='tab__body']//div[2]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//table[1]//tbody[1]//tr[2]//td[2]//div[1]//div[1]//div[1]//div[1]//input[1]
+appdetail_toolbarconfig_loc: //*[@class="dao-table-view-toolbar"]//span[3]/div
+appdetail_toolbarconfig_resourceconfig_loc: /html[1]/body[1]/div[3]/div[1]/ul[1]/li[1]
+appdetail_toolbarconfig_resourceconfig_cpuconfig_loc: //li[@class='tab-nav-item active']
+appdetail_toolbarconfig_resourceconfig_cpulimit_loc: //body/div[@id='app']/div[@class='layout']/div[@class='layout-content']/div[@class='detail-page application-detail content']/div[@class='app-detail panel-layout']/div[@class='top-body']/div[@class='dao-table-container']/div/div[@class='dao-dialog-backdrop tabbed-dialog']/div[@class='dao-dialog-container']/div[@class='dao-dialog-body']/div[@class='tab']/div[@class='tab__body']/div[@class='tab-item']/div/div[1]/div[1]/div[2]/div[2]/span[2]/div[1]/div[1]/div[1]/div[1]/input[1]
+appdetail_toolbarconfig_resourceconfig_cpurequest_loc: //div[@class='tab-item']//div[2]//div[1]//div[2]//div[2]//span[2]//div[1]//div[1]//div[1]//div[1]//input[1]
+appdetail_toolbarconfig_resourceconfig_memconfig_loc: //li[@class='tab-nav-item']
+appdetail_toolbarconfig_resourceconfig_memlimit_loc: //div[@class='dao-input-inner']//input
+appdetail_toolbarconfig_resourceconfig_save_loc: //div[@class='alert-dialog-footer']//div//button[@class='dao-btn blue']
+appdetail_toolbarconfig_scheduleconfig_loc: /html[1]/body[1]/div[3]/div[1]/ul[1]/li[4]
+appdetail_toolbarconfig_scheduleconfig_policy_uselabel_loc: //div[@class='tab']//div[1]//div[1]//div[1]//div[1]//div[2]//div[1]//div[2]//div[1]//label[1]
+appdetail_toolbarconfig_scheduleconfig_policy_chooselabel_loc: //div[@class='dao-setting-content']//div[@class='dao-select-switch-text']
+appdetail_toolbarconfig_scheduleconfig_policy_labelsearch_loc: //div[@class='search-container']//input[@placeholder='搜索']
+appdetail_toolbarconfig_scheduleconfig_policy_foundlabel_loc: /html[1]/body[1]/div[3]/div[2]/div[1]/div[5]
+
+appdetail_assure_loc: //*[@class="dao-dialog-footer"]//button[2]
+appdetail_save_loc: //*[@class="dao-dialog-backdrop alert-dialog"]//button[2]
+appdetail_noty_loc: //*[@class="noty_body"]
+appdetail_deploymentlist_gear_loc: //div[@class='dao-table-container']//button[@class='dao-btn ghost dao-icon icon-button']
