@@ -22,3 +22,4 @@ def login_test(username,password):
 if __name__ == '__main__':
     login_test('admin','changeme')
     sleep(1)
+    #test1
